@@ -77,9 +77,9 @@ export default function ContactoPage() {
                     <MapPin className="text-warm-gold mb-3" size={28} />
                     <h3 className="font-semibold text-chocolate-dark mb-2">Dirección</h3>
                     <p className="text-coffee-brown text-sm">
-                      Camino a Ensenada Km 42
+                      Ruta 225, km 43
                       <br />
-                      Ensenada, Los Lagos
+                      Ensenada, Región de Los Lagos
                       <br />
                       Chile
                     </p>

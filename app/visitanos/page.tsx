@@ -1,4 +1,4 @@
-import { Header } from "@/components/header"
+﻿import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -15,9 +15,9 @@ export default function VisitanosPage() {
         {/* Hero */}
         <section className="relative h-[50vh] flex items-center justify-center">
           <div className="absolute inset-0 bg-gradient-to-b from-chocolate-dark/60 to-chocolate-dark/40 z-10" />
-          <Image src="/visitanos.png" alt="Visítanos" fill className="object-cover" />
+          <Image src="/visitanos.png" alt="VisÃ­tanos" fill className="object-cover" />
           <h1 className="relative z-20 text-5xl md:text-6xl font-semibold text-warm-white text-center px-4">
-            Visítanos
+            VisÃ­tanos
           </h1>
         </section>
 
@@ -28,7 +28,7 @@ export default function VisitanosPage() {
               {/* Contact Info */}
               <div className="space-y-8">
                 <div>
-                  <h2 className="text-3xl font-semibold text-chocolate-dark mb-8">Información</h2>
+                  <h2 className="text-3xl font-semibold text-chocolate-dark mb-8">InformaciÃ³n</h2>
 
                   <div className="space-y-6">
                     {/* Address */}
@@ -37,13 +37,13 @@ export default function VisitanosPage() {
                         <div className="flex items-start gap-4">
                           <MapPin className="text-warm-gold flex-shrink-0 mt-1" size={24} />
                           <div>
-                            <h3 className="font-semibold text-chocolate-dark mb-2">Dirección</h3>
+                            <h3 className="font-semibold text-chocolate-dark mb-2">DirecciÃ³n</h3>
                             <p className="text-coffee-brown leading-relaxed">
-                              Camino a Ensenada Km 42
+                              Ruta 225, km 43
                               <br />
                               Ensenada
                               <br />
-                              Región de Los Lagos
+                              RegiÃ³n de Los Lagos
                               <br />
                               Chile
                             </p>
@@ -61,7 +61,7 @@ export default function VisitanosPage() {
                             <h3 className="font-semibold text-chocolate-dark mb-2">Horarios</h3>
                             <div className="text-coffee-brown space-y-1">
                               <p>Lunes a Viernes: 10:00 - 19:00</p>
-                              <p>Sábados: 11:00 - 20:00</p>
+                              <p>SÃ¡bados: 11:00 - 20:00</p>
                               <p>Domingos: 11:00 - 20:00</p>
                             </div>
                           </div>
@@ -75,7 +75,7 @@ export default function VisitanosPage() {
                         <div className="flex items-start gap-4">
                           <Phone className="text-warm-gold flex-shrink-0 mt-1" size={24} />
                           <div>
-                            <h3 className="font-semibold text-chocolate-dark mb-2">Teléfono</h3>
+                            <h3 className="font-semibold text-chocolate-dark mb-2">TelÃ©fono</h3>
                             <p className="text-coffee-brown">+56 9 1234 5678</p>
                           </div>
                         </div>
@@ -89,13 +89,13 @@ export default function VisitanosPage() {
                   <Link href="https://wa.me/56912345678" target="_blank" className="block">
                     <Button className="w-full bg-whatsapp hover:bg-whatsapp/90 text-white py-6 text-lg">
                       <MessageCircle className="mr-2" size={24} />
-                      Contáctanos por WhatsApp
+                      ContÃ¡ctanos por WhatsApp
                     </Button>
                   </Link>
                   <Link href="https://maps.google.com" target="_blank" className="block">
                     <Button className="w-full bg-primary hover:bg-primary/90 py-6 text-lg" variant="default">
                       <Navigation className="mr-2" size={24} />
-                      Cómo llegar
+                      CÃ³mo llegar
                     </Button>
                   </Link>
                 </div>
@@ -103,12 +103,12 @@ export default function VisitanosPage() {
 
               {/* Map */}
               <div>
-                <h2 className="text-3xl font-semibold text-chocolate-dark mb-8">Ubicación</h2>
+                <h2 className="text-3xl font-semibold text-chocolate-dark mb-8">UbicaciÃ³n</h2>
                 <div className="relative h-[500px] rounded-xl overflow-hidden shadow-lg">
                   <Image src="/mapa-chocolattina.png" alt="Mapa" fill className="object-cover" />
                 </div>
                 <p className="text-coffee-brown text-sm mt-4 text-center">
-                  Ubicados en el camino hacia el Volcán Osorno, cerca de Puerto Varas
+                  Ubicados en el camino hacia el VolcÃ¡n Osorno, cerca de Puerto Varas
                 </p>
               </div>
             </div>
@@ -144,7 +144,7 @@ export default function VisitanosPage() {
             <h2 className="text-3xl md:text-4xl font-semibold mb-6">Ven a Conocernos</h2>
             <p className="text-kraft-beige text-lg leading-relaxed mb-8">
               Estamos ansiosos por recibirte en La Chocolattina. Ven a disfrutar de nuestros chocolates artesanales,
-              tomar un café y vivir una experiencia única en el corazón de Ensenada. ¡Te esperamos con los brazos
+              tomar un cafÃ© y vivir una experiencia Ãºnica en el corazÃ³n de Ensenada. Â¡Te esperamos con los brazos
               abiertos!
             </p>
           </div>
@@ -155,3 +155,4 @@ export default function VisitanosPage() {
     </div>
   )
 }
+

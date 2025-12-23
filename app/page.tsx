@@ -197,7 +197,7 @@ export default function HomePage() {
                   <div>
                     <h3 className="font-semibold text-chocolate-dark mb-2">Dirección</h3>
                     <p className="text-coffee-brown">
-                      Camino a Ensenada Km 42
+                      Ruta 225, km 43
                       <br />
                       Ensenada, Región de Los Lagos
                       <br />
