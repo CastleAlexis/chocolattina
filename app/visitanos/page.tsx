@@ -121,9 +121,9 @@ export default function VisitanosPage() {
             <h2 className="text-3xl md:text-4xl font-semibold text-chocolate-dark text-center mb-12">Te Esperamos</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                "/placeholder.svg?height=400&width=600",
-                "/placeholder.svg?height=400&width=600",
-                "/placeholder.svg?height=400&width=600",
+                "/ensenada-osorno.png",
+                "/varas-llanquihue.png",
+                "/volcan-osorno.png",
               ].map((src, index) => (
                 <div key={index} className="relative h-[300px] rounded-xl overflow-hidden shadow-lg">
                   <Image
