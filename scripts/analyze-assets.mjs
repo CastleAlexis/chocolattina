@@ -4,7 +4,7 @@ import path from "node:path"
 const projectRoot = process.cwd()
 const publicDir = path.join(projectRoot, "public")
 const sourceDirs = ["app", "components", "styles"]
-const ignoredDirs = new Set(["node_modules", ".git", ".next", ".pnpm-store"])
+const ignoredDirs = new Set(["node_modules", ".git", ".next", ".pnpm-store", "unused"])
 
 const assetRegex = /\/[^\s"')]+?\.(png|jpe?g|webp|avif|svg)/gi
 

@@ -14,9 +14,13 @@ export default function HomePage() {
       <main className="pt-20">
         {/* Hero Section */}
         <section className="hero-shell">
-          <img
+          <Image
             src="/la-chocolattina-hero.webp"
-            alt="La Chocolattina - Chocolatería artesanal"
+            alt="La Chocolattina - Chocolater¡a artesanal"
+            width={1920}
+            height={1080}
+            sizes="100vw"
+            priority
             className="hero-image"
           />
         </section>
@@ -63,7 +67,7 @@ export default function HomePage() {
                   className="overflow-hidden bg-kraft-beige border-none shadow-sm hover:shadow-lg hover:scale-[1.02] transition-all duration-300"
                 >
                   <div className="relative h-64">
-                    <Image src={item.image || "/placeholder.svg"} alt={item.title} fill className="object-cover" />
+                    <Image src={item.image || "/placeholder.svg"} alt={item.title} fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" />
                   </div>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-semibold text-chocolate-dark mb-2">{item.title}</h3>
@@ -80,7 +84,7 @@ export default function HomePage() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="relative h-[400px] md:h-[500px] rounded-xl overflow-hidden">
-                <Image src="/chocolate-making-process-artisan-hands-crafting.webp" alt="Nuestra Esencia" fill className="object-cover" />
+                <Image src="/chocolate-making-process-artisan-hands-crafting.webp" alt="Nuestra Esencia" fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
               </div>
               <div>
                 <h2 className="section-title text-3xl md:text-4xl text-chocolate-dark mb-6">Nuestra Esencia</h2>
@@ -119,12 +123,7 @@ export default function HomePage() {
                   className="overflow-hidden bg-kraft-beige border-none shadow-sm hover:shadow-lg hover:scale-[1.02] transition-all duration-300"
                 >
                   <div className="relative h-48">
-                    <Image
-                      src={product.image || `/.jpg?height=300&width=300&query=${product.name}+chocolate+artisan`}
-                      alt={product.name}
-                      fill
-                      className="object-cover"
-                    />
+                    <Image src={product.image || `/.jpg?height=300&width=300&query=${product.name}+chocolate+artisan`} alt={product.name} fill sizes="(min-width: 768px) 25vw, 50vw" className="object-cover" />
                   </div>
                   <CardContent className="p-4">
                     <p className="text-chocolate-dark font-medium text-center">{product.name}</p>
@@ -150,7 +149,7 @@ export default function HomePage() {
                 </p>
               </div>
               <div className="relative h-[400px] md:h-[500px] rounded-xl overflow-hidden">
-                <Image src="/chocolattina.webp" alt="Experiencia La Chocolattina" fill className="object-cover" />
+                <Image src="/chocolattina.webp" alt="Experiencia La Chocolattina" fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
               </div>
             </div>
           </div>
@@ -224,7 +223,7 @@ export default function HomePage() {
                 </Link>
               </div>
               <div className="relative h-[400px] rounded-xl overflow-hidden">
-                <Image src="/mapa-chocolattina.webp" alt="Ubicación" fill className="object-cover" />
+                <Image src="/mapa-chocolattina.webp" alt="Ubicación" fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
               </div>
             </div>
           </div>
@@ -235,4 +234,11 @@ export default function HomePage() {
     </div>
   )
 }
+
+
+
+
+
+
+
 

@@ -11,7 +11,7 @@ export default function HistoriaPage() {
         {/* Hero */}
         <section className="relative h-[50vh] flex items-center justify-center">
           <div className="absolute inset-0 bg-gradient-to-b from-chocolate-dark/60 to-chocolate-dark/40 z-10" />
-          <Image src="/ensenada.webp" alt="Nuestra Historia" fill className="object-cover" />
+          <Image src="/ensenada.webp" alt="Nuestra Historia" fill sizes="100vw" className="object-cover" />
           <h1 className="relative z-20 text-5xl md:text-6xl font-semibold text-warm-white text-center px-4">
             Nuestra Historia
           </h1>
@@ -35,7 +35,7 @@ export default function HistoriaPage() {
               </div>
 
               <div className="relative h-[400px] md:h-[500px] rounded-xl overflow-hidden my-12">
-                <Image src="/chocolate-artisan-workshop-hands-crafting-detail.webp" alt="Proceso Artesanal" fill className="object-cover" />
+                <Image src="/chocolate-artisan-workshop-hands-crafting-detail.webp" alt="Proceso Artesanal" fill sizes="100vw" className="object-cover" />
               </div>
 
               <div>
@@ -85,7 +85,7 @@ export default function HistoriaPage() {
               </div>
 
               <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden my-12">
-                <Image src="/ensenada.webp" alt="Ensenada" fill className="object-cover" />
+                <Image src="/ensenada.webp" alt="Ensenada" fill sizes="100vw" className="object-cover" />
               </div>
 
               <div>
@@ -108,4 +108,5 @@ export default function HistoriaPage() {
     </div>
   )
 }
+
 

@@ -16,7 +16,13 @@ export default function CafeteriaPage() {
         {/* Hero */}
         <section className="relative h-[50vh] flex items-center justify-center">
           <div className="absolute inset-0 bg-gradient-to-b from-chocolate-dark/60 to-chocolate-dark/40 z-10" />
-          <Image src="/cozy-cafe-coffee-chocolate-warm-atmosphere.webp" alt="Cafetería" fill className="object-cover" />
+          <Image
+            src="/cozy-cafe-coffee-chocolate-warm-atmosphere.webp"
+            alt="Cafetería"
+            fill
+            sizes="100vw"
+            className="object-cover"
+          />
           <h1 className="relative z-20 text-5xl md:text-6xl font-semibold text-warm-white text-center px-4">
             Cafetería
           </h1>
@@ -31,6 +37,7 @@ export default function CafeteriaPage() {
                   src="/ensenada-momento.webp"
                   alt="Experiencia Cafetería"
                   fill
+                  sizes="(min-width: 768px) 50vw, 100vw"
                   className="object-cover"
                 />
               </div>
@@ -100,11 +107,12 @@ export default function CafeteriaPage() {
                   src="/lugar-cafe.webp"
                   alt="Interior Cafetería"
                   fill
+                  sizes="(min-width: 768px) 50vw, 100vw"
                   className="object-cover"
                 />
               </div>
               <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden">
-                <Image src="/lugar-cafe-dos.webp" alt="Terraza" fill className="object-cover" />
+                <Image src="/lugar-cafe-dos.webp" alt="Terraza" fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
               </div>
             </div>
             <div className="text-center mt-12 max-w-3xl mx-auto">
@@ -123,4 +131,7 @@ export default function CafeteriaPage() {
     </div>
   )
 }
+
+
+
 

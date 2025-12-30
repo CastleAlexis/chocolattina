@@ -63,7 +63,13 @@ export default function ProductosPage() {
         {/* Hero */}
         <section className="relative h-[50vh] flex items-center justify-center">
           <div className="absolute inset-0 bg-gradient-to-b from-chocolate-dark/60 to-chocolate-dark/40 z-10" />
-          <Image src="/chocolate-products-display-artisan-showcase.webp" alt="Nuestros Productos" fill className="object-cover" />
+          <Image
+            src="/chocolate-products-display-artisan-showcase.webp"
+            alt="Nuestros Productos"
+            fill
+            sizes="100vw"
+            className="object-cover"
+          />
           <h1 className="relative z-20 text-5xl md:text-6xl font-semibold text-warm-white text-center px-4">
             Nuestros Productos
           </h1>
@@ -90,12 +96,7 @@ export default function ProductosPage() {
                 {index % 2 === 0 ? (
                   <>
                     <div className="relative h-[400px] rounded-xl overflow-hidden">
-                      <Image
-                        src={category.image || "/placeholder.svg"}
-                        alt={category.name}
-                        fill
-                        className="object-cover"
-                      />
+                      <Image src={category.image || "/placeholder.svg"} alt={category.name} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
                     </div>
                     <div>
                       <h2 className="text-3xl md:text-4xl font-semibold text-chocolate-dark mb-8">{category.name}</h2>
@@ -125,12 +126,7 @@ export default function ProductosPage() {
                       </div>
                     </div>
                     <div className="relative h-[400px] rounded-xl overflow-hidden">
-                      <Image
-                        src={category.image || "/placeholder.svg"}
-                        alt={category.name}
-                        fill
-                        className="object-cover"
-                      />
+                      <Image src={category.image || "/placeholder.svg"} alt={category.name} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
                     </div>
                   </>
                 )}
@@ -154,4 +150,5 @@ export default function ProductosPage() {
     </div>
   )
 }
+
 

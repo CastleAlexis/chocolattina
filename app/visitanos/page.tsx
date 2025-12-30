@@ -15,7 +15,13 @@ export default function VisitanosPage() {
         {/* Hero */}
         <section className="relative h-[50vh] flex items-center justify-center">
           <div className="absolute inset-0 bg-gradient-to-b from-chocolate-dark/60 to-chocolate-dark/40 z-10" />
-          <Image src="/visitanos.webp" alt="Visítanos" fill className="object-cover" />
+          <Image
+            src="/visitanos.webp"
+            alt="Visítanos"
+            fill
+            sizes="100vw"
+            className="object-cover"
+          />
           <h1 className="relative z-20 text-5xl md:text-6xl font-semibold text-warm-white text-center px-4">
             Visítanos
           </h1>
@@ -101,17 +107,22 @@ export default function VisitanosPage() {
                 </div>
               </div>
 
-              {/* Map */}
+                            {/* Map */}
               <div>
-                <h2 className="text-3xl font-semibold text-chocolate-dark mb-8">Ubicación</h2>
+                <h2 className="text-3xl font-semibold text-chocolate-dark mb-8">Ubicaci¢n</h2>
                 <div className="relative h-[500px] rounded-xl overflow-hidden shadow-lg">
-                  <Image src="/mapa-chocolattina.webp" alt="Mapa" fill className="object-cover" />
+                  <Image
+                    src="/mapa-chocolattina.webp"
+                    alt="Mapa"
+                    fill
+                    sizes="(min-width: 768px) 50vw, 100vw"
+                    className="object-cover"
+                  />
                 </div>
                 <p className="text-coffee-brown text-sm mt-4 text-center">
-                  Ubicados en el camino hacia el Volcán Osorno, cerca de Puerto Varas
+                  Ubicados en el camino hacia el Volc n Osorno, cerca de Puerto Varas
                 </p>
               </div>
-            </div>
           </div>
         </section>
 
@@ -126,12 +137,7 @@ export default function VisitanosPage() {
                 "/volcan-osorno.webp",
               ].map((src, index) => (
                 <div key={index} className="relative h-[300px] rounded-xl overflow-hidden shadow-lg">
-                  <Image
-                    src={src || "/placeholder.svg"}
-                    alt={`La Chocolattina ${index + 1}`}
-                    fill
-                    className="object-cover"
-                  />
+                  <Image src={src || "/placeholder.svg"} alt={`La Chocolattina ${index + 1}`} fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" />
                 </div>
               ))}
             </div>
@@ -155,4 +161,7 @@ export default function VisitanosPage() {
     </div>
   )
 }
+
+
+
 

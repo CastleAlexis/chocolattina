@@ -15,7 +15,13 @@ export default function ContactoPage() {
         {/* Hero */}
         <section className="relative h-[50vh] flex items-center justify-center">
           <div className="absolute inset-0 bg-gradient-to-b from-chocolate-dark/60 to-chocolate-dark/40 z-10" />
-          <Image src="/cascada.webp" alt="Contacto" fill className="object-cover" />
+          <Image
+            src="/cascada.webp"
+            alt="Contacto"
+            fill
+            sizes="100vw"
+            className="object-cover"
+          />
           <h1 className="relative z-20 text-5xl md:text-6xl font-semibold text-warm-white text-center px-4">
             Contacto
           </h1>
@@ -115,7 +121,13 @@ export default function ContactoPage() {
           <div className="container mx-auto px-4 max-w-4xl">
             <h2 className="text-3xl font-semibold text-chocolate-dark text-center mb-8">Encuéntranos</h2>
             <div className="relative h-[450px] rounded-xl overflow-hidden shadow-lg">
-              <Image src="/petrohue.webp" alt="Petrohué" fill className="object-cover" />
+              <Image
+              src="/petrohue.webp"
+              alt="Petrohué"
+              fill
+              sizes="100vw"
+              className="object-cover"
+            />
             </div>
           </div>
         </section>
@@ -142,4 +154,5 @@ export default function ContactoPage() {
     </div>
   )
 }
+
 
