@@ -16,7 +16,7 @@ export default function CafeteriaPage() {
         {/* Hero */}
         <section className="relative h-[50vh] flex items-center justify-center">
           <div className="absolute inset-0 bg-gradient-to-b from-chocolate-dark/60 to-chocolate-dark/40 z-10" />
-          <Image src="/cozy-cafe-coffee-chocolate-warm-atmosphere.jpg" alt="Cafetería" fill className="object-cover" />
+          <Image src="/cozy-cafe-coffee-chocolate-warm-atmosphere.webp" alt="Cafetería" fill className="object-cover" />
           <h1 className="relative z-20 text-5xl md:text-6xl font-semibold text-warm-white text-center px-4">
             Cafetería
           </h1>
@@ -28,7 +28,7 @@ export default function CafeteriaPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
               <div className="relative h-[400px] md:h-[500px] rounded-xl overflow-hidden">
                 <Image
-                  src="/ensenada-momento.jpg"
+                  src="/ensenada-momento.webp"
                   alt="Experiencia Cafetería"
                   fill
                   className="object-cover"
@@ -97,14 +97,14 @@ export default function CafeteriaPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden">
                 <Image
-                  src="/lugar-cafe.png"
+                  src="/lugar-cafe.webp"
                   alt="Interior Cafetería"
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden">
-                <Image src="/lugar-cafe-dos.png" alt="Terraza" fill className="object-cover" />
+                <Image src="/lugar-cafe-dos.webp" alt="Terraza" fill className="object-cover" />
               </div>
             </div>
             <div className="text-center mt-12 max-w-3xl mx-auto">
@@ -123,3 +123,4 @@ export default function CafeteriaPage() {
     </div>
   )
 }
+

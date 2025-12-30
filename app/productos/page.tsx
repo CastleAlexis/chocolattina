@@ -15,7 +15,7 @@ export default function ProductosPage() {
         "Chocolates con frutos secos",
         "Barras de chocolate",
       ],
-      image: "/artisan-chocolate-truffles-bonbons.jpg",
+      image: "/artisan-chocolate-truffles-bonbons.webp",
     },
     {
       name: "Alfajores & Dulces",
@@ -27,7 +27,7 @@ export default function ProductosPage() {
         "Turrón artesanal",
         "Dulces tradicionales",
       ],
-      image: "/alfajores-dulce-de-leche-cookies.jpg",
+      image: "/alfajores-dulce-de-leche-cookies.webp",
     },
     {
       name: "Repostería",
@@ -39,7 +39,7 @@ export default function ProductosPage() {
         "Macarons",
         "Tartas artesanales",
       ],
-      image: "/kuchen-cake-artisan-bakery.jpg",
+      image: "/kuchen-cake-artisan-bakery.webp",
     },
     {
       name: "Productos Especiales",
@@ -51,7 +51,7 @@ export default function ProductosPage() {
         "Tabletas para fondue",
         "Cajas regalo",
       ],
-      image: "/artisan-jam-granola-specialty-products.jpg",
+      image: "/artisan-jam-granola-specialty-products.webp",
     },
   ]
 
@@ -63,7 +63,7 @@ export default function ProductosPage() {
         {/* Hero */}
         <section className="relative h-[50vh] flex items-center justify-center">
           <div className="absolute inset-0 bg-gradient-to-b from-chocolate-dark/60 to-chocolate-dark/40 z-10" />
-          <Image src="/chocolate-products-display-artisan-showcase.jpg" alt="Nuestros Productos" fill className="object-cover" />
+          <Image src="/chocolate-products-display-artisan-showcase.webp" alt="Nuestros Productos" fill className="object-cover" />
           <h1 className="relative z-20 text-5xl md:text-6xl font-semibold text-warm-white text-center px-4">
             Nuestros Productos
           </h1>
@@ -154,3 +154,4 @@ export default function ProductosPage() {
     </div>
   )
 }
+
