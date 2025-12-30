@@ -1,12 +1,12 @@
-import { Header } from "@/components/header"
+﻿import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 
 export default function CafeteriaPage() {
-  const bebidas = ["Café espresso", "Cappuccino", "Latte", "Chocolate caliente", "Té premium", "Chai latte"]
+  const bebidas = ["CafÃ© espresso", "Cappuccino", "Latte", "Chocolate caliente", "TÃ© premium", "Chai latte"]
 
-  const acompanamientos = ["Kuchen del día", "Brownies", "Cookies", "Macarons", "Cheesecake", "Torta de chocolate"]
+  const acompanamientos = ["Kuchen del dÃ­a", "Brownies", "Cookies", "Macarons", "Cheesecake", "Torta de chocolate"]
 
   return (
     <div className="min-h-screen">
@@ -18,13 +18,13 @@ export default function CafeteriaPage() {
           <div className="absolute inset-0 bg-gradient-to-b from-chocolate-dark/60 to-chocolate-dark/40 z-10" />
           <Image
             src="/cozy-cafe-coffee-chocolate-warm-atmosphere.webp"
-            alt="Cafetería"
+            alt="CafeterÃ­a"
             fill
             sizes="100vw"
             className="object-cover"
           />
           <h1 className="relative z-20 text-5xl md:text-6xl font-semibold text-warm-white text-center px-4">
-            Cafetería
+            CafeterÃ­a
           </h1>
         </section>
 
@@ -35,7 +35,7 @@ export default function CafeteriaPage() {
               <div className="relative h-[400px] md:h-[500px] rounded-xl overflow-hidden">
                 <Image
                   src="/ensenada-momento.webp"
-                  alt="Experiencia Cafetería"
+                  alt="Experiencia CafeterÃ­a"
                   fill
                   sizes="(min-width: 768px) 50vw, 100vw"
                   className="object-cover"
@@ -44,13 +44,13 @@ export default function CafeteriaPage() {
               <div>
                 <h2 className="text-3xl md:text-4xl font-semibold text-chocolate-dark mb-6">Un Momento Para Ti</h2>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
-                  Nuestra cafetería es el espacio perfecto para disfrutar de un momento de tranquilidad. Ya sea que
-                  vengas solo, con amigos o en familia, te ofrecemos un ambiente acogedor donde cada detalle está
+                  Nuestra cafeterÃ­a es el espacio perfecto para disfrutar de un momento de tranquilidad. Ya sea que
+                  vengas solo, con amigos o en familia, te ofrecemos un ambiente acogedor donde cada detalle estÃ¡
                   pensado para tu comodidad.
                 </p>
                 <p className="text-coffee-brown text-lg leading-relaxed">
-                  Acompaña tu café o té favorito con nuestros productos de repostería artesanal. Todo preparado con
-                  dedicación y amor, para que cada visita sea especial.
+                  AcompaÃ±a tu cafÃ© o tÃ© favorito con nuestros productos de reposterÃ­a artesanal. Todo preparado con
+                  dedicaciÃ³n y amor, para que cada visita sea especial.
                 </p>
               </div>
             </div>
@@ -60,7 +60,7 @@ export default function CafeteriaPage() {
         {/* Menu */}
         <section className="py-16 md:py-24 bg-kraft-beige">
           <div className="container mx-auto px-4 max-w-4xl">
-            <h2 className="text-3xl md:text-4xl font-semibold text-chocolate-dark text-center mb-12">Nuestro Menú</h2>
+            <h2 className="text-3xl md:text-4xl font-semibold text-chocolate-dark text-center mb-12">Nuestro MenÃº</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               {/* Bebidas */}
@@ -77,9 +77,9 @@ export default function CafeteriaPage() {
                 </div>
               </div>
 
-              {/* Acompañamientos */}
+              {/* AcompaÃ±amientos */}
               <div>
-                <h3 className="text-2xl font-semibold text-chocolate-dark mb-6 text-center">Acompañamientos</h3>
+                <h3 className="text-2xl font-semibold text-chocolate-dark mb-6 text-center">AcompaÃ±amientos</h3>
                 <div className="space-y-3">
                   {acompanamientos.map((item, index) => (
                     <Card key={index} className="bg-warm-white border-none shadow-sm">
@@ -93,7 +93,7 @@ export default function CafeteriaPage() {
             </div>
 
             <p className="text-coffee-brown text-center mt-12 text-lg">
-              Pregunta por nuestras opciones del día y especiales de temporada
+              Pregunta por nuestras opciones del dÃ­a y especiales de temporada
             </p>
           </div>
         </section>
@@ -105,7 +105,7 @@ export default function CafeteriaPage() {
               <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden">
                 <Image
                   src="/lugar-cafe.webp"
-                  alt="Interior Cafetería"
+                  alt="Interior CafeterÃ­a"
                   fill
                   sizes="(min-width: 768px) 50vw, 100vw"
                   className="object-cover"
@@ -118,8 +118,8 @@ export default function CafeteriaPage() {
             <div className="text-center mt-12 max-w-3xl mx-auto">
               <h2 className="text-3xl font-semibold text-chocolate-dark mb-6">Ambiente Acogedor</h2>
               <p className="text-coffee-brown text-lg leading-relaxed">
-                Disfruta de nuestro espacio interior cálido o de nuestra terraza con vista a los volcanes. Cada rincón
-                de La Chocolattina está diseñado para que te sientas como en casa, rodeado de la belleza natural de
+                Disfruta de nuestro espacio interior cÃ¡lido o de nuestra terraza con vista a los volcanes. Cada rincÃ³n
+                de La Chocolattina estÃ¡ diseÃ±ado para que te sientas como en casa, rodeado de la belleza natural de
                 Ensenada.
               </p>
             </div>
