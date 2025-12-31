@@ -109,7 +109,7 @@ export default function VisitanosPage() {
 
                             {/* Map */}
               <div>
-                <h2 className="text-3xl font-semibold text-chocolate-dark mb-8">Ubicación</h2>
+                <h2 className="text-3xl font-semibold text-chocolate-dark mb-8">UbicaciÃ³n</h2>
                 <div className="relative h-[500px] rounded-xl overflow-hidden shadow-lg">
                   <Image
                     src="/mapa-chocolattina.webp"
@@ -150,7 +150,7 @@ export default function VisitanosPage() {
             <h2 className="text-3xl md:text-4xl font-semibold mb-6">Ven a Conocernos</h2>
             <p className="text-kraft-beige text-lg leading-relaxed mb-8">
               Estamos ansiosos por recibirte en La Chocolattina. Ven a disfrutar de nuestros chocolates artesanales,
-              tomar un café y vivir una experiencia única en el corazón de Ensenada. ¡Te esperamos con los brazos
+              tomar un cafÃ© y vivir una experiencia Ãºnica en el corazÃ³n de Ensenada. Â¡Te esperamos con los brazos
               abiertos!
             </p>
           </div>
