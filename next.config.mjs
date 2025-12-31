@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: 'export',
   images: {
-    formats: ["image/avif", "image/webp"],
+    unoptimized: true,
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;
