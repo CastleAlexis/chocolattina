@@ -24,13 +24,13 @@ export default function ProductosPage() {
         "Alfajores de manjar",
         "Brownies",
         "Cookies",
-        "TurrÃ³n artesanal",
+        "Turr�n artesanal",
         "Dulces tradicionales",
       ],
       image: "/alfajores-dulce-de-leche-cookies.webp",
     },
     {
-      name: "ReposterÃ­a",
+      name: "Reposter�a",
       products: [
         "Kuchen de frambuesa",
         "Kuchen de manzana",
@@ -79,8 +79,8 @@ export default function ProductosPage() {
         <section className="py-16 bg-warm-white">
           <div className="container mx-auto px-4 text-center max-w-3xl">
             <p className="text-coffee-brown text-lg leading-relaxed">
-              Cada uno de nuestros productos es creado con dedicaciÃ³n y amor. Utilizamos ingredientes de primera calidad
-              para ofrecerte una experiencia Ãºnica en cada bocado. Te invitamos a descubrir nuestra variedad.
+              Cada uno de nuestros productos es creado con dedicaci�n y amor. Utilizamos ingredientes de primera calidad
+              para ofrecerte una experiencia �nica en cada bocado. Te invitamos a descubrir nuestra variedad.
             </p>
           </div>
         </section>
@@ -138,9 +138,9 @@ export default function ProductosPage() {
         {/* CTA */}
         <section className="py-16 bg-coffee-brown text-warm-white">
           <div className="container mx-auto px-4 text-center max-w-2xl">
-            <h2 className="text-3xl font-semibold mb-6">Â¿Quieres probar nuestros productos?</h2>
+            <h2 className="text-3xl font-semibold mb-6">�Quieres probar nuestros productos?</h2>
             <p className="text-kraft-beige text-lg leading-relaxed mb-8">
-              VisÃ­tanos en nuestro local en Ensenada o contÃ¡ctanos por WhatsApp para hacer tu pedido. Â¡Te esperamos!
+�Te esperamos!
             </p>
           </div>
         </section>
@@ -150,5 +150,6 @@ export default function ProductosPage() {
     </div>
   )
 }
+
 
 

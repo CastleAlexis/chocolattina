@@ -16,7 +16,7 @@ export default function HomePage() {
         <section className="hero-shell">
           <Image
             src="/la-chocolattina-hero.webp"
-            alt="La Chocolattina - ChocolaterÂ¡a artesanal"
+            alt="La Chocolattina - Chocolater�a artesanal"
             width={1920}
             height={1080}
             sizes="100vw"
@@ -32,8 +32,8 @@ export default function HomePage() {
               Chocolate artesanal del sur de Chile
             </h2>
             <p className="text-coffee-brown text-lg leading-relaxed">
-              En La Chocolattina creamos cada pieza con dedicaciÃ³n y cariÃ±o, usando ingredientes de la mÃ¡s alta calidad.
-              Nuestra pasiÃ³n es compartir la tradiciÃ³n chocolatera con cada persona que nos visita.
+              En La Chocolattina creamos cada pieza con dedicaci�n y cari�o, usando ingredientes de la m�s alta calidad.
+              Nuestra pasi�n es compartir la tradici�n chocolatera con cada persona que nos visita.
             </p>
           </div>
         </section>
@@ -48,7 +48,7 @@ export default function HomePage() {
               {[
                 {
                   title: "Chocolates Artesanales",
-                  description: "Piezas Ãºnicas elaboradas con cacao fino de aroma",
+                  description: "Piezas �nicas elaboradas con cacao fino de aroma",
                   image: "/artisan-chocolate-truffles-bonbons-handmade.webp",
                 },
                 {
@@ -57,8 +57,8 @@ export default function HomePage() {
                   image: "/alfajores-dulce-de-leche-traditional-desserts.webp",
                 },
                 {
-                  title: "CafÃ©, TÃ© & Kuchen",
-                  description: "AcompaÃ±amientos perfectos para tu momento especial",
+                  title: "Caf�, T� & Kuchen",
+                  description: "Acompa�amientos perfectos para tu momento especial",
                   image: "/coffee-tea-kuchen-cake-cozy-cafe.webp",
                 },
               ].map((item, index) => (
@@ -90,10 +90,10 @@ export default function HomePage() {
                 <h2 className="section-title text-3xl md:text-4xl text-chocolate-dark mb-6">Nuestra Esencia</h2>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
                   Cada chocolate que creamos lleva consigo la historia de nuestra tierra, el cuidado de nuestras manos y
-                  la pasiÃ³n por el oficio artesanal.
+                  la pasi�n por el oficio artesanal.
                 </p>
                 <p className="text-coffee-brown text-lg leading-relaxed">
-                  En el corazÃ³n de Ensenada, trabajamos dÃ­a a dÃ­a para ofrecerte una experiencia Ãºnica que celebra lo
+                  En el coraz�n de Ensenada, trabajamos d�a a d�a para ofrecerte una experiencia �nica que celebra lo
                   mejor del sur de Chile.
                 </p>
               </div>
@@ -113,7 +113,7 @@ export default function HomePage() {
                 { name: "Bombones volcanes", image: "/volcanes.webp" },
                 { name: "Tabletas bariloches", image: "/barras-bariloches.webp" },
                 { name: "Alfajores caseros", image: "/alfajores.webp" },
-                { name: "Honguitos mÃ¡gicos", image: "/honguito.webp" },
+                { name: "Honguitos m�gicos", image: "/honguito.webp" },
                 { name: "Frutos secos", image: "/frutos-secos.webp" },
                 { name: "Pistachos", image: "/pistachos.webp" },
                 { name: "Kucken", image: "/kucken.webp" },
@@ -141,8 +141,8 @@ export default function HomePage() {
               <div>
                 <h2 className="section-title text-3xl md:text-4xl mb-6">Experiencia La Chocolattina</h2>
                 <p className="text-kraft-beige text-lg leading-relaxed mb-4">
-                  MÃ¡s que una chocolaterÃ­a, somos un espacio donde cada visita se transforma en un momento memorable. El
-                  aroma del chocolate reciÃ©n hecho, la calidez de nuestro ambiente y la dedicaciÃ³n en cada detalle.
+                  M�s que una chocolater�a, somos un espacio donde cada visita se transforma en un momento memorable. El
+                  aroma del chocolate reci�n hecho, la calidez de nuestro ambiente y la dedicaci�n en cada detalle.
                 </p>
                 <p className="text-kraft-beige text-lg leading-relaxed">
                   Te invitamos a conocernos, a probar nuestras creaciones y a ser parte de nuestra historia.
@@ -163,21 +163,21 @@ export default function HomePage() {
               {[
                 {
                   text: "El mejor chocolate que he probado en Chile. Cada pieza es una obra de arte.",
-                  author: "MarÃ­a GonzÃ¡lez",
+                  author: "Mar�a Gonz�lez",
                 },
                 {
-                  text: "Un lugar mÃ¡gico en Ensenada. El cafÃ© y los kuchen son increÃ­bles.",
+                  text: "Un lugar m�gico en Ensenada. El caf� y los kuchen son incre�bles.",
                   author: "Pedro Soto",
                 },
                 {
-                  text: "AtenciÃ³n cÃ¡lida y productos de altÃ­sima calidad. Totalmente recomendable.",
-                  author: "Ana MartÃ­nez",
+                  text: "Atenci�n c�lida y productos de alt�sima calidad. Totalmente recomendable.",
+                  author: "Ana Mart�nez",
                 },
               ].map((testimonial, index) => (
                 <Card key={index} className="bg-kraft-beige border-none shadow-sm">
                   <CardContent className="p-6">
                     <p className="text-coffee-brown leading-relaxed mb-4 italic">"{testimonial.text}"</p>
-                    <p className="text-chocolate-dark font-semibold">Â {testimonial.author}</p>
+                    <p className="text-chocolate-dark font-semibold">- {testimonial.author}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -188,17 +188,17 @@ export default function HomePage() {
         {/* Visit Us */}
         <section className="section-slab py-16 md:py-24">
           <div className="container mx-auto px-4">
-            <h2 className="section-title text-3xl md:text-4xl text-chocolate-dark text-center mb-12">VisÃ­tanos</h2>
+            <h2 className="section-title text-3xl md:text-4xl text-chocolate-dark text-center mb-12">Vis�tanos</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <MapPin className="text-warm-gold flex-shrink-0 mt-1" size={24} />
                   <div>
-                    <h3 className="font-semibold text-chocolate-dark mb-2">DirecciÃ³n</h3>
+                    <h3 className="font-semibold text-chocolate-dark mb-2">Direcci�n</h3>
                     <p className="text-coffee-brown">
                       Ruta 225, km 43
                       <br />
-                      Ensenada, RegiÃ³n de Los Lagos
+                      Ensenada, Regi�n de Los Lagos
                       <br />
                       Chile
                     </p>
@@ -211,19 +211,19 @@ export default function HomePage() {
                     <p className="text-coffee-brown">
                       Lunes a Viernes: 10:00 - 19:00
                       <br />
-                      SÃ¡bado y Domingo: 11:00 - 20:00
+                      S�bado y Domingo: 11:00 - 20:00
                     </p>
                   </div>
                 </div>
                 <Link href="https://wa.me/56912345678" target="_blank">
                   <Button className="w-full bg-whatsapp hover:bg-whatsapp/90 text-white">
                     <MessageCircle className="mr-2" size={20} />
-                    ContÃ¡ctanos por WhatsApp
+                    Cont�ctanos por WhatsApp
                   </Button>
                 </Link>
               </div>
               <div className="relative h-[400px] rounded-xl overflow-hidden">
-                <Image src="/mapa-chocolattina.webp" alt="UbicaciÃ³n" fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
+                <Image src="/mapa-chocolattina.webp" alt="Ubicaci�n" fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
               </div>
             </div>
           </div>
@@ -234,6 +234,10 @@ export default function HomePage() {
     </div>
   )
 }
+
+
+
+
 
 
 

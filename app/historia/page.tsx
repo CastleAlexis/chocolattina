@@ -24,13 +24,13 @@ export default function HistoriaPage() {
               <div>
                 <h2 className="text-3xl font-semibold text-chocolate-dark mb-6">El Origen</h2>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
-                  La Chocolattina naciÃ³ del sueÃ±o de compartir el amor por el chocolate artesanal en el corazÃ³n del sur
+                  La Chocolattina naci� del sue�o de compartir el amor por el chocolate artesanal en el coraz�n del sur
                   de Chile. En Ensenada, rodeados por la belleza de volcanes y lagos, comenzamos a dar vida a cada una
                   de nuestras creaciones.
                 </p>
                 <p className="text-coffee-brown text-lg leading-relaxed">
                   Inspirados por la riqueza de nuestra tierra y la calidez de nuestra gente, decidimos crear un espacio
-                  donde la tradiciÃ³n chocolatera se encuentre con la innovaciÃ³n artesanal.
+                  donde la tradici�n chocolatera se encuentre con la innovaci�n artesanal.
                 </p>
               </div>
 
@@ -41,17 +41,17 @@ export default function HistoriaPage() {
               <div>
                 <h2 className="text-3xl font-semibold text-chocolate-dark mb-6">Nuestro Oficio</h2>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
-                  Cada dÃ­a trabajamos con dedicaciÃ³n y pasiÃ³n. Seleccionamos cuidadosamente cada ingrediente, buscando
-                  siempre la mÃ¡s alta calidad. El cacao que utilizamos proviene de productores comprometidos con la
+                  Cada d�a trabajamos con dedicaci�n y pasi�n. Seleccionamos cuidadosamente cada ingrediente, buscando
+                  siempre la m�s alta calidad. El cacao que utilizamos proviene de productores comprometidos con la
                   excelencia y la sostenibilidad.
                 </p>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
                   Nuestro proceso es lento y cuidadoso. No hay atajos cuando se trata de crear algo especial. Cada
-                  trufa, cada bombÃ³n, cada tableta lleva consigo horas de trabajo y aÃ±os de experiencia.
+                  trufa, cada bomb�n, cada tableta lleva consigo horas de trabajo y a�os de experiencia.
                 </p>
                 <p className="text-coffee-brown text-lg leading-relaxed">
                   Creemos en el chocolate como un arte, como una forma de transmitir emociones y crear momentos
-                  memorables. Por eso, cada pieza que sale de nuestro taller es Ãºnica y especial.
+                  memorables. Por eso, cada pieza que sale de nuestro taller es �nica y especial.
                 </p>
               </div>
 
@@ -60,20 +60,20 @@ export default function HistoriaPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {[
                     {
-                      title: "ArtesanÃ­a",
-                      description: "Trabajamos con nuestras manos, respetando tÃ©cnicas tradicionales.",
+                      title: "Artesan�a",
+                      descript�cnicas tradicionales.",
                     },
                     {
                       title: "Calidad",
                       description: "Solo los mejores ingredientes forman parte de nuestras creaciones.",
                     },
                     {
-                      title: "CercanÃ­a",
+                      title: "Cercan�a",
                       description: "Cada cliente es parte de nuestra familia.",
                     },
                     {
-                      title: "TradiciÃ³n",
-                      description: "Honramos las raÃ­ces chocolateras mientras innovamos.",
+                      title: "Tradici�n",
+                      description: "Honramos las ra�ces chocolateras mientras innovamos.",
                     },
                   ].map((value, index) => (
                     <div key={index} className="bg-kraft-beige p-6 rounded-xl">
@@ -91,12 +91,12 @@ export default function HistoriaPage() {
               <div>
                 <h2 className="text-3xl font-semibold text-chocolate-dark mb-6">Hoy</h2>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
-                  Hoy, La Chocolattina es mÃ¡s que una chocolaterÃ­a. Es un lugar de encuentro, donde familias, parejas y
+                  Hoy, La Chocolattina es m�s que una chocolater�a. Es un lugar de encuentro, donde familias, parejas y
                   amigos comparten momentos especiales. Es un espacio donde el chocolate nos conecta y nos une.
                 </p>
                 <p className="text-coffee-brown text-lg leading-relaxed">
                   Te invitamos a ser parte de nuestra historia. A visitarnos, a probar nuestras creaciones y a descubrir
-                  el amor que ponemos en cada detalle. En La Chocolattina, siempre serÃ¡s bienvenido.
+                  el amor que ponemos en cada detalle. En La Chocolattina, siempre ser�s bienvenido.
                 </p>
               </div>
             </div>
@@ -108,5 +108,6 @@ export default function HistoriaPage() {
     </div>
   )
 }
+
 
 
