@@ -21,16 +21,16 @@ export default function HistoriaPage() {
         <section className="py-16 md:py-24 bg-warm-white">
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="space-y-8">
-              <div>
+                            <div>
                 <h2 className="text-3xl font-semibold text-chocolate-dark mb-6">El Origen</h2>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
-                  La Chocolattina naciÃ³ del sueÃ±o de compartir el amor por el chocolate artesanal en el corazÃ³n del sur
+                  La Chocolattina nació del sueño de compartir el amor por el chocolate artesanal en el corazón del sur
                   de Chile. En Ensenada, rodeados por la belleza de volcanes y lagos, comenzamos a dar vida a cada una
                   de nuestras creaciones.
                 </p>
                 <p className="text-coffee-brown text-lg leading-relaxed">
                   Inspirados por la riqueza de nuestra tierra y la calidez de nuestra gente, decidimos crear un espacio
-                  donde la tradiciÃ³n chocolatera se encuentre con la innovaciÃ³n artesanal.
+                  donde la tradición chocolatera se encuentre con la innovación artesanal.
                 </p>
               </div>
 
@@ -38,42 +38,42 @@ export default function HistoriaPage() {
                 <Image src="/chocolate-artisan-workshop-hands-crafting-detail.webp" alt="Proceso Artesanal" fill sizes="100vw" className="object-cover" />
               </div>
 
-              <div>
+                            <div>
                 <h2 className="text-3xl font-semibold text-chocolate-dark mb-6">Nuestro Oficio</h2>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
-                  Cada dÃ­a trabajamos con dedicaciÃ³n y pasiÃ³n. Seleccionamos cuidadosamente cada ingrediente, buscando
-                  siempre la mÃ¡s alta calidad. El cacao que utilizamos proviene de productores comprometidos con la
+                  Cada día trabajamos con dedicación y pasión. Seleccionamos cuidadosamente cada ingrediente, buscando
+                  siempre la más alta calidad. El cacao que utilizamos proviene de productores comprometidos con la
                   excelencia y la sostenibilidad.
                 </p>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
                   Nuestro proceso es lento y cuidadoso. No hay atajos cuando se trata de crear algo especial. Cada
-                  trufa, cada bombÃ³n, cada tableta lleva consigo horas de trabajo y aÃ±os de experiencia.
+                  trufa, cada bombón, cada tableta lleva consigo horas de trabajo y años de experiencia.
                 </p>
                 <p className="text-coffee-brown text-lg leading-relaxed">
                   Creemos en el chocolate como un arte, como una forma de transmitir emociones y crear momentos
-                  memorables. Por eso, cada pieza que sale de nuestro taller es Ãºnica y especial.
+                  memorables. Por eso, cada pieza que sale de nuestro taller es única y especial.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-3xl font-semibold text-chocolate-dark mb-6">Nuestros Valores</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {[
                     {
-                      title: "ArtesanÃ­a",
-                      descriptÃ©cnicas tradicionales.",
+                      title: "Artesanía",
+                      description: "Trabajamos con nuestras manos, respetando técnicas tradicionales.",
                     },
                     {
                       title: "Calidad",
                       description: "Solo los mejores ingredientes forman parte de nuestras creaciones.",
                     },
                     {
-                      title: "CercanÃ­a",
+                      title: "Cercanía",
                       description: "Cada cliente es parte de nuestra familia.",
                     },
                     {
-                      title: "TradiciÃ³n",
-                      description: "Honramos las raÃ­ces chocolateras mientras innovamos.",
+                      title: "Tradición",
+                      description: "Honramos las raíces chocolateras mientras innovamos.",
                     },
                   ].map((value, index) => (
                     <div key={index} className="bg-kraft-beige p-6 rounded-xl">
@@ -82,7 +82,6 @@ export default function HistoriaPage() {
                     </div>
                   ))}
                 </div>
-              </div>
 
               <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden my-12">
                 <Image src="/ensenada.webp" alt="Ensenada" fill sizes="100vw" className="object-cover" />
@@ -108,6 +107,7 @@ export default function HistoriaPage() {
     </div>
   )
 }
+
 
 
 
