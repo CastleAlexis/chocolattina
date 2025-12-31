@@ -21,7 +21,7 @@ export default function HistoriaPage() {
         <section className="py-16 md:py-24 bg-warm-white">
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="space-y-8">
-                            <div>
+              <div>
                 <h2 className="text-3xl font-semibold text-chocolate-dark mb-6">El Origen</h2>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
                   La Chocolattina nació del sueño de compartir el amor por el chocolate artesanal en el corazón del sur
@@ -35,10 +35,16 @@ export default function HistoriaPage() {
               </div>
 
               <div className="relative h-[400px] md:h-[500px] rounded-xl overflow-hidden my-12">
-                <Image src="/chocolate-artisan-workshop-hands-crafting-detail.webp" alt="Proceso Artesanal" fill sizes="100vw" className="object-cover" />
+                <Image
+                  src="/chocolate-artisan-workshop-hands-crafting-detail.webp"
+                  alt="Proceso Artesanal"
+                  fill
+                  sizes="100vw"
+                  className="object-cover"
+                />
               </div>
 
-                            <div>
+              <div>
                 <h2 className="text-3xl font-semibold text-chocolate-dark mb-6">Nuestro Oficio</h2>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
                   Cada día trabajamos con dedicación y pasión. Seleccionamos cuidadosamente cada ingrediente, buscando
@@ -57,7 +63,7 @@ export default function HistoriaPage() {
 
               <div>
                 <h2 className="text-3xl font-semibold text-chocolate-dark mb-6">Nuestros Valores</h2>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {[
                     {
                       title: "Artesanía",
@@ -82,6 +88,7 @@ export default function HistoriaPage() {
                     </div>
                   ))}
                 </div>
+              </div>
 
               <div className="relative h-[300px] md:h-[400px] rounded-xl overflow-hidden my-12">
                 <Image src="/ensenada.webp" alt="Ensenada" fill sizes="100vw" className="object-cover" />
@@ -107,7 +114,3 @@ export default function HistoriaPage() {
     </div>
   )
 }
-
-
-
-
