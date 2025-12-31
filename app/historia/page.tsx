@@ -24,13 +24,13 @@ export default function HistoriaPage() {
                             <div>
                 <h2 className="text-3xl font-semibold text-chocolate-dark mb-6">El Origen</h2>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
-                  La Chocolattina nació del sueño de compartir el amor por el chocolate artesanal en el corazón del sur
+                  La Chocolattina naciÃ³ del sueÃ±o de compartir el amor por el chocolate artesanal en el corazÃ³n del sur
                   de Chile. En Ensenada, rodeados por la belleza de volcanes y lagos, comenzamos a dar vida a cada una
                   de nuestras creaciones.
                 </p>
                 <p className="text-coffee-brown text-lg leading-relaxed">
                   Inspirados por la riqueza de nuestra tierra y la calidez de nuestra gente, decidimos crear un espacio
-                  donde la tradición chocolatera se encuentre con la innovación artesanal.
+                  donde la tradiciÃ³n chocolatera se encuentre con la innovaciÃ³n artesanal.
                 </p>
               </div>
 
@@ -41,17 +41,17 @@ export default function HistoriaPage() {
                             <div>
                 <h2 className="text-3xl font-semibold text-chocolate-dark mb-6">Nuestro Oficio</h2>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
-                  Cada día trabajamos con dedicación y pasión. Seleccionamos cuidadosamente cada ingrediente, buscando
-                  siempre la más alta calidad. El cacao que utilizamos proviene de productores comprometidos con la
+                  Cada dÃ­a trabajamos con dedicaciÃ³n y pasiÃ³n. Seleccionamos cuidadosamente cada ingrediente, buscando
+                  siempre la mÃ¡s alta calidad. El cacao que utilizamos proviene de productores comprometidos con la
                   excelencia y la sostenibilidad.
                 </p>
                 <p className="text-coffee-brown text-lg leading-relaxed mb-4">
                   Nuestro proceso es lento y cuidadoso. No hay atajos cuando se trata de crear algo especial. Cada
-                  trufa, cada bombón, cada tableta lleva consigo horas de trabajo y años de experiencia.
+                  trufa, cada bombÃ³n, cada tableta lleva consigo horas de trabajo y aÃ±os de experiencia.
                 </p>
                 <p className="text-coffee-brown text-lg leading-relaxed">
                   Creemos en el chocolate como un arte, como una forma de transmitir emociones y crear momentos
-                  memorables. Por eso, cada pieza que sale de nuestro taller es única y especial.
+                  memorables. Por eso, cada pieza que sale de nuestro taller es Ãºnica y especial.
                 </p>
               </div>
 
@@ -60,20 +60,20 @@ export default function HistoriaPage() {
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {[
                     {
-                      title: "Artesanía",
-                      description: "Trabajamos con nuestras manos, respetando técnicas tradicionales.",
+                      title: "ArtesanÃ­a",
+                      description: "Trabajamos con nuestras manos, respetando tÃ©cnicas tradicionales.",
                     },
                     {
                       title: "Calidad",
                       description: "Solo los mejores ingredientes forman parte de nuestras creaciones.",
                     },
                     {
-                      title: "Cercanía",
+                      title: "CercanÃ­a",
                       description: "Cada cliente es parte de nuestra familia.",
                     },
                     {
-                      title: "Tradición",
-                      description: "Honramos las raíces chocolateras mientras innovamos.",
+                      title: "TradiciÃ³n",
+                      description: "Honramos las raÃ­ces chocolateras mientras innovamos.",
                     },
                   ].map((value, index) => (
                     <div key={index} className="bg-kraft-beige p-6 rounded-xl">
